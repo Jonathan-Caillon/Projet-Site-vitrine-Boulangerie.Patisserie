@@ -73,6 +73,22 @@ html {
 
 /* *************** */
 
+/* A propos de nous */
+
+.nsimg {
+    margin: 40px;
+    height: 400px;
+    background-image: url(./images/table.jpg);
+    background-position: left;
+}
+
+.nsfond {
+    background-color: #E3DCD2;
+}
+
+
+/* **************** */
+
 /* Texte */
 
 h1 {

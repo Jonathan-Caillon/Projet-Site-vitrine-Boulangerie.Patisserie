@@ -17,7 +17,11 @@ html {
 
 /* Accueil */
 
-.background {
+.acpad {
+    padding-top: 80px;
+}
+
+.acfond {
     background-image: url(./images/25101.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -30,7 +34,7 @@ html {
     justify-content: center;
 }
 
-.bloc {
+.acbloc {
     max-width: 500px;
 }
 
@@ -39,7 +43,7 @@ html {
     width: 200px;
 }
 
-.img {
+.acimg {
     margin: 10px;
     max-width: 350px;
     max-height: 250px;

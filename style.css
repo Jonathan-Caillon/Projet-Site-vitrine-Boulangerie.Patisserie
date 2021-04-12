@@ -18,7 +18,7 @@ html {
 /* Accueil */
 
 .acpad {
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 .acfond {
@@ -80,7 +80,7 @@ html {
 /* A propos de nous */
 
 .nsimg {
-    margin: 40px;
+    margin: 40px 0;
     height: 400px;
     background-image: url(./images/table.jpg);
     background-position: left;

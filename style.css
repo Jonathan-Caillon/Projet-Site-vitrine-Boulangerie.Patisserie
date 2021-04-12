@@ -1,6 +1,84 @@
+/* HTML scroll */ 
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* *** */
+
 /* Barre de navigation */
 
-.logo {
+.navlogo {
     height: 60px;
     width: 60px;
 }
+
+/* ************ */
+
+/* Accueil */
+
+.background {
+    background-image: url(./images/25101.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.centrer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bloc {
+    max-width: 500px;
+}
+
+.aclogo {
+    height: 200px;
+    width: 200px;
+}
+
+.img {
+    margin: 10px;
+    max-width: 350px;
+    max-height: 250px;
+}
+
+/* Desktop */
+
+@media (min-width: 768px) {
+
+    .fright {
+        float: right;
+    }
+
+    .bordures {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+    .milieu {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+/* *************** */
+
+/* Texte */
+
+h1 {
+    font-size: 48px;
+    font-family: 'Lobster', cursive;
+}
+
+/* ********* */
+

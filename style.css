@@ -101,17 +101,42 @@ html {
 }
 
 .npimg {
-    width: 32px;
+    height: 400px;
+}
+
+.npcar {
+    height: 400px;
+    width: 700px;
+    margin-bottom: 80px;
+}
+
+.filtre {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.npcar h5 {
+    margin-bottom: 30px;
+    font-size: 38px;
+    color: yellowgreen;
+}
+
+.npcar p {
+    margin-bottom: 1px;
+    font-size: 32px;
 }
 
 .txt {
-    color: white;
+    color: #E3DCD2;
 }
 
 .npfond {
     background-color: #332F29;
 }
 
+.npbloc {
+    max-width: 320px;
+    height: 150px;
+}
 /* Texte */
 
 h1 {
@@ -119,5 +144,18 @@ h1 {
     font-family: 'Lobster', cursive;
 }
 
+button {
+    color: #E3DCD2;
+    background-color: black;
+    border: 1px solid black;
+    padding: 6px 18px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    color: black;
+    background-color: #E3DCD2;
+    transition: 0.5s ease-in-out;
+}
 /* ********* */
 

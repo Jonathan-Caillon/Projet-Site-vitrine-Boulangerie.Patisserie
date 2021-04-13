@@ -144,7 +144,7 @@ h1 {
     font-family: 'Lobster', cursive;
 }
 
-button {
+.npb {
     color: #E3DCD2;
     background-color: black;
     border: 1px solid black;
@@ -152,7 +152,7 @@ button {
     margin-bottom: 30px;
 }
 
-button:hover {
+.npb:hover {
     color: black;
     background-color: #E3DCD2;
     transition: 0.5s ease-in-out;

@@ -40,7 +40,7 @@ html {
 
 .aclogo {
     height: 200px;
-    width: 200px;
+    width: 212px;
 }
 
 .acimg {
@@ -112,6 +112,7 @@ html {
 
 .filtre {
     background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px
 }
 
 .npcar h5 {
@@ -125,6 +126,17 @@ html {
     font-size: 32px;
 }
 
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 10px
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+    border-radius: 10px
+}
+
+
 .txt {
     color: #E3DCD2;
 }
@@ -134,28 +146,67 @@ html {
 }
 
 .npbloc {
-    max-width: 320px;
-    height: 150px;
+    max-width: 370px;
+    height: 120px;
 }
+
+.npb {
+    color: #E3DCD2;
+    background-color: #212529;
+    border: 1px solid #212529;
+    padding: 6px 18px;
+    margin-bottom: 30px;
+}
+
+.npb:hover {
+    color: #212529;
+    background-color: #E3DCD2;
+    transition: 0.5s ease-in-out;
+}
+
+
+/* ***************** */
+
+/* Nous contacter */
+
+.gmap {
+    width: 100%;
+    height: 100%;
+}
+
+/* ***************** */
+
+/* Footer */
+
+.ml {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #E3DCD2;
+}
+
+a:hover {
+    color: rgba(255,255,255,.75);
+}
+
+
+/* ***************** */
+
 /* Texte */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #E3DCD2;
+}
 
 h1 {
     font-size: 48px;
     font-family: 'Lobster', cursive;
 }
 
-.npb {
-    color: #E3DCD2;
-    background-color: black;
-    border: 1px solid black;
-    padding: 6px 18px;
-    margin-bottom: 30px;
-}
 
-.npb:hover {
-    color: black;
-    background-color: #E3DCD2;
-    transition: 0.5s ease-in-out;
-}
+
 /* ********* */
 

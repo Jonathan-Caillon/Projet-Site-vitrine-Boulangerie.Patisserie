@@ -195,6 +195,15 @@ html {
     height: 100%;
 }
 
+.nscolor {
+    color: #212529;
+    text-decoration: none;
+}
+
+.nscolor:hover {
+    color: gray;
+}
+
 /* ***************** */
 
 /* Footer */
@@ -204,7 +213,7 @@ html {
     margin-bottom: 20px;
 }
 
-a {
+footer a {
     text-decoration: none;
     color: #E3DCD2;
 }

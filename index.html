@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+        <meta name="description" content="Boulangerie-Pâtisserie No Pain No Gain">
+        <meta name="keywords" content="HTML, CSS">
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
@@ -15,7 +16,6 @@
         <title>Accueil - No Pain No Gain</title>
     </head>
     <body>
-
         <!-- Barre de navigation -->
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
@@ -36,7 +36,7 @@
                         <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nos offres" href="#offres">Offres</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Gallerie photos" href="#galerie">Galerie</a>
+                        <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Galerie photos" href="#galerie">Galerie</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Commandez en ligne" href="#commande">Commande</a>
@@ -52,8 +52,8 @@
         <!-- *************************** -->
 
         <!-- Section "Accueil" -->
-        <a id="accueil"></a>
-        <div class="acpad">
+        
+        <div id="accueil" class="acpad">
             <section class="container">
                 <div class="row">
                     <img class="aclogo" src="./images/logo.png" alt="Logo No Pain No Gain">
@@ -84,8 +84,8 @@
         <!-- *************************** -->
 
         <!-- Section "A propos de nous" -->
-        <a id="nous"></a>
-        <div class="nsfond">
+        
+        <div id="nous" class="nsfond">
             <section class="container">
                 <div class="row">
                     <div class="col-12 col-md-5">
@@ -110,8 +110,8 @@
         <!-- *************************** -->
 
         <!-- Section "Nos produits" -->
-        <a id="produits"></a>
-        <div class="npfond">
+        
+        <div id="produits" class="npfond">
             <section class="container txt">
                 <h1 class="titre">Nos produits</h1>
                 <div class="row">
@@ -184,8 +184,8 @@
 
                 <!-- Carousel offres -->
 
-                <a id="offres"></a>
-                <div class="row">
+          
+                <div id="offres" class="row">
                     <h1 class="titre">Nos offres</h1>
                 </div>
                 <div class="row centrer">
@@ -201,7 +201,7 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active" data-bs-interval="8000">
                                     <img src="./images/pain.jpg" class="npimg d-block w-100" alt="Image de baguettes">
-                                    <div class="carousel-caption filtre">
+                                    <div class="carousel-caption filtre" id="galerie">
                                     <p>3 baguettes achetées</p>
                                     <h5>+1 offerte!</h5>
                                     </div>
@@ -251,8 +251,6 @@
         <!-- *************************** -->
 
         <!-- Section "Galerie photos" -->
-
-        <a id="galerie"></a>
         <div class="nsfond">
             <section class="container">
                 <div class="row">
@@ -287,8 +285,7 @@
 
         <!-- Section "Commandez en ligne" -->
 
-        <a id="commande"></a>
-        <div>
+        <div id="commande">
             <section class="container">
                 <div class="row align titre">
                     <h1>Commandez en ligne</h1>
@@ -300,7 +297,7 @@
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui ducimus perspiciatis fuga alias. Eaque saepe a odit voluptatibus, cum nihil.
                             </p>
-                            <button class="npb" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Réservation">Commandez</button>
+                            <button class="npb" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Réservez votre commande">Commandez</button>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 centrer">
@@ -317,45 +314,47 @@
         </div>
 
         <!-- Section "Nous contacter" -->
-
-        <a id="contact"></a>
-        <div class="nsfond">
+        <div id="contact" class="nsfond">
             <section class="container">
                 <div class="row">
                     <div class="col-12 col-md-7">
-                        <h1 class="titre">Nous contacter</h1>
                         <div class="row">
                             <div class="row">
-                                <h3 class="align">
+                                <h1 class="contact">Nous contacter</h1>
+                            </div>
+                            <div class="row">
+                                <h2 class="align rpad">
                                     Boulangerie - Pâtisserie <br>
-                                    No Pain NO Gain
-                                </h3>
+                                    No Pain No Gain
+                                </h2>
                             </div>
                             <div class="col-12 col-md-6">
                                 <h3>Horaires :</h3>
                                 <h4>Du mardi au vendredi :</h4>
-                                <p>06h30-13h00 et 15h00-19h30</p>
+                                <p>06h30-13h00 et 15h00-19h00</p>
                                 <h4>Samedi :</h4>
-                                <p>07h00-13h00 et 15h00-19h30</p>
+                                <p>07h00-13h00 et 15h00-19h00</p>
                                 <h4>Dimanche et jours fériés :</h4>
                                 <p>07h00-13h00</p>
                             </div>
                             <div class="col-12 col-md-6">
                                 <h3>Adresse :</h3>
-                                <p>
+                                <p class="marg">
                                     2 Rue Emile Bravet, 01500 Ambérieu-en-Bugey
                                 </p>
                                 <h3>Téléphone :</h3>
-                                <p>
+                                <p class="marg">
                                     04 xx xx xx xx
                                 </p>
-                                <h3>Contact</h3>
-                                <a class="nscolor" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Formulaire contact">Envoyez-nous un message</a>    
+                                <h3>Mail :</h3>
+                                <p>
+                                    xxxxxx@xxxxx.fr
+                                </p>    
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-5">
-                        <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11095.123830405098!2d5.3399823!3d45.9556593!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc647f91b106ce3df!2sOnlineformapro!5e0!3m2!1sfr!2sfr!4v1618321328432!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe title="Emplacement de la Boulangerie-Pâtisserie No Pain No Gain" class="gmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11095.123830405098!2d5.3399823!3d45.9556593!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc647f91b106ce3df!2sOnlineformapro!5e0!3m2!1sfr!2sfr!4v1618321328432!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
             </section>

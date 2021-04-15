@@ -39,8 +39,8 @@ html {
 }
 
 .aclogo {
-    height: 200px;
-    width: 212px;
+    height: 250px;
+    width: 274px;
 }
 
 .acimg {
@@ -62,6 +62,9 @@ html {
         margin-right: 40px;
     }
 
+    .aclogo {
+        margin-bottom: -100px;
+    }
 }
 
 /* Mobile */
@@ -164,14 +167,26 @@ html {
     transition: 0.5s ease-in-out;
 }
 
+@media (max-width: 768px) {
+    .npimg {
+        height: 250px;
+    }
+
+    .npcar {
+        height: 250px;
+        width: 700px;
+        margin-bottom: 20px;
+    }
+}
 
 /* ***************** */
 
 /* Gallerie */
 
 .gaimg {
+    max-width: 350px;
     width: 100%;
-    max-height: 250px;
+    max-height: 300px;
     padding: 10px;
     margin-bottom: 15px;
 }
@@ -204,9 +219,18 @@ html {
     color: gray;
 }
 
+.marg {
+    margin-bottom: 25px;
+}
+
 /* ***************** */
 
 /* Footer */
+
+.contact {
+    padding: 20px;
+    margin: 0;
+}
 
 .ml {
     margin-top: 20px;
@@ -222,10 +246,18 @@ a:hover {
     color: rgba(255,255,255,.75);
 }
 
-.align {
-    text-align: center;
-    margin-bottom: 20px;
+.rpad {
+    margin-bottom: 30px;
 }
+
+@media (min-width: 768px) {
+
+    .rpad {
+        padding-right: 100px;
+    }
+
+}
+
 
 /* ***************** */
 
@@ -240,6 +272,13 @@ h1 {
     font-family: 'Lobster', cursive;
 }
 
+h4 {
+    font-size: 20px;
+}
+
+.align {
+    text-align: center;
+}
 
 /* ********* */
 

@@ -118,10 +118,11 @@ html {
     border-radius: 10px
 }
 
-.npcar h5 {
+.vert {
     margin-bottom: 30px;
     font-size: 38px;
     color: yellowgreen;
+    font-weight: bold;
 }
 
 .npcar p {
